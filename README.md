@@ -31,7 +31,7 @@ Before applying this Terraform configuration, make sure you have the following:
    provider "aws" {
      region = "us-east-1" # Change this to your desired AWS region
    }
-
+***
 **Customize Resources**: 
 
 Customize the resource configurations in main.tf to match your specific infrastructure requirements. You can modify variables, instance types, subnet CIDR blocks, and other parameters as needed. Be sure to review and adapt the entire Terraform configuration according to your needs.
